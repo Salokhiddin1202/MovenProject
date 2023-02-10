@@ -9,4 +9,13 @@
           class="uz.brogrammers.Kvadrat">
         <constructor-arg value="5" />
     </bean>
+    <bean id="rectangel"
+          class="uz.brogrammers.Rectangel">
+        <constructor-arg index="0" value="21"/>
+        <constructor-arg index="1" value="33"/>
+    </bean>
+    <bean id="doira"
+          class="uz.brogrammers.Doira">
+        <constructor-arg value="6"/>
+    </bean>
 </beans>
